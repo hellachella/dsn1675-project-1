@@ -70,8 +70,9 @@ h1{
 }
 
 h1:hover{
-		color:rgba(255,255,255,0.5);
+		/*color:rgba(255,255,255,0.5);*/
 	  text-shadow: 0 0 1px rgba(255,255,255,0.6);
+	  color: yellow;
 
 
 }
@@ -126,11 +127,13 @@ main{
 nav{
 	width: 30%;
 	float: left;
+	margin-top: 1em;
 }
 
 nav li{
 	float: left;
 	width: 100%;
+
 
 }
 
@@ -140,6 +143,18 @@ nav li{
 html {
 	font-size: 110%;
 	line-height: 1.4;
+	}
+
+	h1{
+		bottom: 4em;
+		text-align: left;
+		padding-left: 1em;
+	}
+
+	h3{
+		bottom: 20em;
+		text-align: left;
+		padding-left: 6em;
 	}
 }
 
