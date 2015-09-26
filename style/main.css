@@ -51,6 +51,7 @@ header {
     background: #ffc0cb;
     display: block;
     position: relative;
+    overflow: hidden;
 }
 
 .img240px{
@@ -99,6 +100,7 @@ filter: grayscale(0); /* Firefox 39 (and above? Don´t know) */
 
 main {
     padding: 1em;
+    margin: 0;
 
 
 }
@@ -113,12 +115,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color: rgba(255,255,255,0.2);
-    /*text-shadow: 0 0 5px rgba(255,255,255,0.1);*/
-
-    -webkit-filter: blur(50%);
-
-
-
+    text-shadow: 0 0 5px rgba(255,255,255,0.1);
 }
 
 h1:hover {
@@ -231,6 +228,29 @@ html {
     font-size: 120%;
     line-height: 1.5;
 }
+
+h1{
+
+    padding-left: 0;
+    text-align: right;
+    bottom: 4em;
+    margin: 0;
+    width: 60%;
+
+}
+
+h3{
+    bottom: 20.3em;
+    left: 11.5em;
+    font-size: .8em;
+    padding-left: 5.5em;
+    }
+}
+
+main{
+
+}
+
 }
 
 /*XL screen*/
