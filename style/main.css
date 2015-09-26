@@ -192,10 +192,24 @@ h1 {
 }
 
 h3 {
-    bottom: 1em;
-    text-align: center;
-    margin-left: 1em;
+    bottom: 1.4em;
+    text-align: left;
+    margin-left: 2em;
 }
+
+main{
+    float: right;
+    width: 60%;
+}
+nav{
+    float: right;
+    width: 40%;
+}
+
+nav li{
+    width: calc(100% / 3);
+}
+
 }
 
 /*large screen*/
