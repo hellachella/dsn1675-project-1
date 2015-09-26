@@ -180,6 +180,17 @@ nav li {
     width: 100%;
 }
 
+nav li:hover{
+     -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+     -webkit-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -moz-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -o-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+}
+
 
 .img240px{
     display: none;
