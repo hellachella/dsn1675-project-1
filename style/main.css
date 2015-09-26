@@ -21,7 +21,7 @@ html{
 
 	margin:0;
 
-	transition: all 500ms;
+	transition: all 1000ms;
 }
 
 header{
@@ -38,6 +38,12 @@ header img{
 	margin: 0;
 	padding: 0;
 	display: block;
+}
+
+header img:hover{
+	-webkit-filter: grayscale(100%);
+filter: grayscale(80%);
+transition: filter 5000ms;
 }
 
 main{
@@ -102,6 +108,29 @@ html {
 	font-size: 110%;
 	line-height: 1.4;
 }
+
+h1{
+	bottom: 2.5em;
+	font-size:
+}
+
+h3{
+	bottom: 12em;
+}
+
+main{
+	width: 70%;
+	float: left;
+}
+
+nav{
+	width: 30%;
+	float: left;
+}
+
+nav li{
+	float: left;
+	width: 100%;
 
 }
 
