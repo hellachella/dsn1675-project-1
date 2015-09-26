@@ -115,8 +115,8 @@ nav li{
 }
 
 
-/*360 px*/
-@media only screen  and ( min-width: 22em){
+/*320 px*/
+@media only screen  and ( min-width: 20em){
 
 html {
 	font-size: 110%;
@@ -125,12 +125,12 @@ html {
 }
 
 h1{
-	bottom: 2.5em;
-	font-size:
+	font-size: 4em;
+	bottom: .24em;
 }
 
 h3{
-	bottom: 12em;
+	bottom: 1.4em;
 }
 
 main{
