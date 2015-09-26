@@ -13,13 +13,15 @@ html{
 	text-size-adjust: 100%;
 	/*those will never validate*/
 
-	font: normal 100%/1.3 'Open-Sans', sans-serif;;
+	font: normal 100%/1.3 'Open Sans', sans-serif;
 }
 
 *,*::before, *::after{
 	box-sizing: inherit;
 
 	margin:0;
+
+	transition: all 500ms;
 }
 
 header{
@@ -44,6 +46,7 @@ main{
 }
 
 h1{
+	font-family: 'Montserrat';
 	font-size: 3em;
 	position: absolute;
 	bottom: 0em;
@@ -56,7 +59,8 @@ h1{
 
  color: rgba(255,255,255,0.2);
  	  text-shadow: 0 0 5px rgba(255,255,255,0.1);
-  transition: all 3s;
+  transition: text-shadow 3s;
+  /*Add Webkit stuff*/
 }
 
 h1:hover{
@@ -89,3 +93,41 @@ nav li{
 		background: grey;
 		float: left;
 }
+
+
+/*360 px*/
+@media only screen  and ( min-width: 22em){
+
+html {
+	font-size: 110%;
+	line-height: 1.4;
+}
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 38em){
+
+html {
+	font-size: 110%;
+	line-height: 1.4;
+	}
+}
+
+
+/*large screen*/
+@media only screen and (min-width: 60em){
+	html{
+		font-size: 120%;
+		line-height: 1.5;
+	}
+}
+
+/*XL screen*/
+@media only screen and (min-width: 90em){
+	html{
+		font-size: 130%;
+		line-height: 1.6;
+	}
+}
+
