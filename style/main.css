@@ -144,7 +144,6 @@ nav ul {
 
 nav li {
     width: calc(100% / 3);
-    background: grey;
     float: left;
 }
 
@@ -180,6 +179,7 @@ nav li {
     float: left;
     width: 100%;
 }
+
 
 .img240px{
     display: none;
