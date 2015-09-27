@@ -147,6 +147,54 @@ nav li {
     float: left;
 }
 
+.bc{
+    width: 336px;
+    height: 192px;
+    border: 1px dashed pink;
+    clear: both;
+    margin: 3em auto;
+    display: none;
+
+}
+
+.name{
+
+ margin: 1em;
+
+}
+
+.name ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.name li{
+    text-align: right;
+}
+
+.name li:nth-of-type(1){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-weight: bold;
+
+}
+
+.name li:nth-child(n+2){
+    color: #E3E3E3;
+    font-size: .9em;
+}
+
+.name p{
+    width: 100%;
+    text-align: center;
+    margin: 3em auto;
+}
+
+
+
 /*320 px*/
 @media only screen and ( min-width: 20em) {
 html {
@@ -283,5 +331,27 @@ main{
 html {
     font-size: 130%;
     line-height: 1.6;
+}
+}
+
+
+/*PRINT*/
+
+@media  print{
+
+header{
+    display: none;
+}
+
+main{
+    display: none
+    }
+
+nav{
+    display: none;
+}
+
+.bc{
+    display: block;
 }
 }
