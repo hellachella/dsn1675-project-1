@@ -57,7 +57,7 @@ header {
 .img240px{
     display: block;
 }
-.img320px{
+.img320px, .xl-pic{
     display: none;
 }
 
@@ -124,7 +124,7 @@ h1:hover {
     color:rgba(255,255,255,0.5)
 }
 
-h3 {
+header h3 {
     position: absolute;
     bottom: 0;
     color: #fff;
@@ -272,16 +272,16 @@ html {
     line-height: 1.4;
 }
 
-h1 {
-    bottom: .2em;
+header h1 {
+    bottom: .3em;
     text-align: left;
     margin-left: 16px
 }
 
-h3 {
-    bottom: 1.4em;
+header h3 {
+    bottom: 1em;
     text-align: left;
-    margin-left: 2em;
+
 }
 
 main{
@@ -306,26 +306,31 @@ html {
     line-height: 1.5;
 }
 
-h1{
-
+header h1{
+    font-size: 6em;
     padding-left: 0;
     text-align: right;
-    bottom: 4em;
+    bottom: 2em;
     margin: 0;
-    width: 60%;
+    width: 100%;
+    text-align:  center;
 
 }
 
-h3{
-    bottom: 20em;
-    left: 24.5em;
-    font-size: .8em;
-    padding-left: 5.5em;
+header h3{
+    bottom: 8em;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+
     }
 }
-
-main{
-
+.img320px{
+    display: none;
+}
+.xl-pic{
+    display: block;
 }
 
 }
