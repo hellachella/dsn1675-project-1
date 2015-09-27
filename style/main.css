@@ -203,13 +203,17 @@ html {
     transition: all 0s;
 }
 
-h1 {
+header h1 {
     font-size: 4em;
     bottom: .24em;
 }
 
-h3 {
-    bottom: 1.4em;
+header h3 {
+    font-size: 1em;
+    bottom: .7em;
+    padding: 0;
+    margin-left: 1.1em;
+
 }
 
 main {
