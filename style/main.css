@@ -78,7 +78,7 @@ h1 {
     font-family: 'Montserrat';
     font-size: 3em;
     position: absolute;
-    bottom: 0;
+    bottom: .15em;
     width: 100%;
     padding: 0;
     text-align: center;
@@ -94,7 +94,7 @@ header h3 {
     bottom: 0;
     color: #fff;
     font-weight: 400;
-    font-size: .6em;
+    font-size: .8em;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -181,14 +181,13 @@ html {
 
 header h1 {
     font-size: 4em;
-    bottom: .24em;
+    bottom: -.03em;
 }
 
 header h3 {
-    font-size: 1em;
-    bottom: .7em;
+    font-size: .85em;
     padding: 0;
-    margin-left: 1.1em;
+
 
 }
 
@@ -237,13 +236,13 @@ html {
 }
 
 header h1 {
-    bottom: .3em;
+
     text-align: left;
     margin-left: 16px
 }
 
 header h3 {
-    bottom: 1em;
+    margin-left: 1.4em;
     text-align: left;
 
 }
