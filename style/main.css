@@ -71,6 +71,7 @@ header img {
 main {
     padding: 1em;
     margin: 0;
+    transition: none;
 }
 
 h1 {
@@ -98,6 +99,7 @@ header h3 {
     text-align: center;
     text-transform: uppercase;
 }
+
 
 nav ul {
     display: inline-block;
@@ -131,7 +133,7 @@ nav li {
 }
 
 .name{
-    padding: 1em;
+    padding: .5em;
     display: block;
 }
 
@@ -139,12 +141,12 @@ nav li {
     list-style-type: none;
     width: 60%;
     float: left;
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 10px;
 }
 
 .name li{
-    text-align: left
+    text-align: right;
 }
 
 .name li:nth-of-type(1){
@@ -152,21 +154,20 @@ nav li {
     font-size: 1.5em;
     line-height: 1em;
     text-transform: uppercase;
-
     font-weight: bold;
+}
+
+.name li:nth-of-type(2){
+    font-weight: bold;
+    padding-bottom: .3em;
 }
 
 
 .name li:nth-child(n+2){
     color: #E3E3E3;
-    font-size: .7em;
+    font-size: .5em;
 }
 
-.name p{
-    width: 100%;
-    text-align: center;
-    margin: 3em auto;
-}
 
 
 
@@ -299,10 +300,10 @@ header img{
     /*-webkit-filter: grayscale(100%);
     filter: grayscale(1);*/
 
-    -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -moz-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -o-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -webkit-transition: filter 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -moz-transition: filter 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -o-transition: filter 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    transition: filter 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
 }
 
 header img:hover {
