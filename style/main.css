@@ -69,34 +69,10 @@ header img {
     display: block;
 
 
-filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
 
-filter: grayscale(1); /* Firefox 39 (and above? Don´t know) */
--webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-
-    /*-webkit-filter: grayscale(100%);
-   filter: grayscale(1);*/
-
-     -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -moz-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -o-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
 }
 
-header img:hover {
 
-filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
-filter: grayscale(0); /* Firefox 39 (and above? Don´t know) */
--webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-
-    /*-webkit-filter: grayscale(0%);
-    filter: grayscale(1);*/
-
-    -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -moz-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -o-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-}
 
 main {
     padding: 1em;
@@ -245,17 +221,7 @@ nav img{
 
 }
 
-nav img:hover{
-     -ms-transform: rotate(400deg); /* IE 9 */
-    -webkit-transform: rotate(400deg); /* Chrome, Safari, Opera */
-    transform: rotate(400deg);
 
-     -webkit-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -moz-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -o-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
-    transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
-
-}
 
 
 .img240px{
@@ -314,6 +280,48 @@ header h1{
     margin: 0;
     width: 100%;
     text-align:  center;
+
+}
+
+header img{
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+
+filter: grayscale(1); /* Firefox 39 (and above? Don´t know) */
+-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+
+    /*-webkit-filter: grayscale(100%);
+   filter: grayscale(1);*/
+
+     -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -moz-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -o-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+}
+
+header img:hover {
+
+filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+filter: grayscale(0); /* Firefox 39 (and above? Don´t know) */
+-webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+
+    /*-webkit-filter: grayscale(0%);
+    filter: grayscale(1);*/
+
+    -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -moz-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -o-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+}
+
+nav img:hover{
+     -ms-transform: rotate(400deg); /* IE 9 */
+    -webkit-transform: rotate(400deg); /* Chrome, Safari, Opera */
+    transform: rotate(400deg);
+
+     -webkit-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -moz-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -o-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
 
 }
 
