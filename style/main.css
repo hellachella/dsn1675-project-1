@@ -304,6 +304,11 @@ header h1{
     text-shadow: 0 0 5px rgba(255,255,255,0.1);
     margin-left: 0;
 
+    -webkit-transition: 3000ms ease-in-out opacity;
+    -moz-transition: 3000ms ease-in-out opacity;
+    -o-transition: 3000ms ease-in-out opacity;
+    transition: 3000ms ease-in-out opacity;
+
 }
 
 header h1:hover {
@@ -311,10 +316,6 @@ header h1:hover {
     text-shadow: 0 0 2px rgba(255,255,255,1);
     color:rgba(255,255,255,0.5);
 
-    -webkit-transition: opacity  3000ms ease-in-out;
-    -moz-transition: opacity  3000ms ease-in-out;
-    -o-transition: opacity  3000ms ease-in-out;
-    transition: opacity  3000ms ease-in-out;
 
      -webkit-transition: text-shadow 1000ms ease-in-out;
     -moz-transition: text-shadow 1000ms ease-in-out;
@@ -346,10 +347,13 @@ nav img:hover{
     -webkit-transform: rotate(400deg); /* Chrome, Safari, Opera */
     transform: rotate(400deg);
 
+
+/* M
      -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
     -moz-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
     -o-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
     transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    */
 
 }
 
