@@ -300,7 +300,7 @@ header h1{
     text-align:  center;
     color: rgba(255,255,255,0.2);
     text-shadow: 0 0 5px rgba(255,255,255,0.1);
-    margin: 0;
+    margin-left: 0;
 
 }
 
