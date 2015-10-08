@@ -115,7 +115,7 @@ nav ul {
 }
 
 nav li {
-    width: calc(100% / 3);
+    width: calc (100% / 3);
     float: left;
 }
 
@@ -275,12 +275,19 @@ html {
     line-height: 1.5;
 }
 
-header h1:hover {
 
-    text-shadow: 0 0 2px rgba(255,255,255,1.3);
-    color:rgba(255,255,255,0.5);
-
+header{
+     background-image: url("../images/xl-pic.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+     /*I know, a negative margin is such a hack thing to do, I tried display block etc etc, it wasn't responding. I also tried overflow hidden*/
+     margin: 0 0 -43px 0;
+     overflow: hidden;
+     display: block;
 }
+
+
+
 
 
 
@@ -293,10 +300,27 @@ header h1{
     text-align:  center;
     color: rgba(255,255,255,0.2);
     text-shadow: 0 0 5px rgba(255,255,255,0.1);
+    transition: none;
+
+}
+
+header h1:hover {
+
+    text-shadow: 0 0 2px rgba(255,255,255,1.3);
+    color:rgba(255,255,255,0.5);
 
 }
 
 
+header h3{
+    position: relative;
+    bottom: 10em;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.25em;
+    text-align: center;
+    }
 
 
 
@@ -308,35 +332,15 @@ nav img:hover{
     -webkit-transform: rotate(400deg); /* Chrome, Safari, Opera */
     transform: rotate(400deg);
 
-     -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -moz-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -o-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
-    transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+     -webkit-transition:  5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -moz-transition:  500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -o-transition:  500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    transition:  500ms cubic-bezier(0.250,0.250,0.410,1.100);
 
 }
 
-header{
-     background-image: url("../images/xl-pic.jpg");
-     background-size: 100%;
-     background-repeat: no-repeat;
-     /*I know, a negative margin is such a hacky thing to do, I tried display block etc etc, it wasn't responding. I also tried overflow hidden*/
-     margin: 0 0 -43px 0;
-     overflow: hidden;
-     display: block;
-}
 
 
-
-header h3{
-    position: relative;
-    bottom: 10em;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 1.25em;
-    text-align: center;
-
-
-    }
 
 .img320px{
     display: none;
@@ -348,7 +352,7 @@ header h3{
 }
 
 .xl-pic:hover{
-    opacity: 0;
+    opacity: 0.2;
 
      -webkit-transition: all 4000ms cubic-bezier(0.250,0.250,0.410,1.100);
     -moz-transition: all  4000ms cubic-bezier(0.250,0.250,0.410,1.100);
