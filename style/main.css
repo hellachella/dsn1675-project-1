@@ -78,6 +78,11 @@ main p{
     margin-bottom: 1em;
 }
 
+ main a{
+    text-decorations: none;
+    background: green;
+}
+
 h1 {
     font-family: 'Montserrat';
     font-size: 3em;
@@ -371,7 +376,7 @@ nav img:hover{
 }
 
 .xl-pic:hover{
-    opacity: 0.2;
+    opacity: 0.5;
 
      -webkit-transition: opacity 4000ms cubic-bezier(0.250,0.250,0.410,1.100);
     -moz-transition: opacity  4000ms cubic-bezier(0.250,0.250,0.410,1.100);
@@ -394,6 +399,13 @@ html {
 
 h3{
     bottom: 10em;
+}
+
+main p{
+    float: left;
+    width: 50%;
+    padding: 0 .5em;
+}
 }
 
 
