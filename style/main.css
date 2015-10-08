@@ -289,7 +289,6 @@ header h1{
     padding-left: 0;
     text-align: right;
     bottom: 2em;
-    margin: 0;
     width: 100%;
     text-align:  center;
     color: rgba(255,255,255,0.2);
@@ -320,7 +319,8 @@ header{
      background-image: url("../images/xl-pic.jpg");
      background-size: 100%;
      background-repeat: no-repeat;
-     margin: 0;
+     /*I know, a negative margin is such a hacky thing to do, I tried display block etc etc, it wasn't responding.*/
+     margin: 0 0 -43px 0;
      display: block;
 }
 
