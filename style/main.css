@@ -280,9 +280,9 @@ html {
 
 
 header{
-     background-image: url("../images/xl-pic.jpg");
+     /*background-image: url("../images/xl-pic.jpg");
      background-size: 100%;
-     background-repeat: no-repeat;
+     background-repeat: no-repeat;*/
      /*I know, a negative margin is such a hack thing to do, I tried display block etc etc, it wasn't responding. I also tried overflow hidden*/
      margin: 0 0 -43px 0;
      overflow: hidden;
