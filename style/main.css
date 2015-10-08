@@ -43,10 +43,9 @@ html {
 header {
   margin: 0;
   padding: 0;
-  display: block;
   position: relative;
   overflow: hidden;
-  background-image: none
+
 }
 
 .img240px {
@@ -54,29 +53,42 @@ header {
 }
 
 .img320px,.xl-pic,.bw-pic {
-  display: none
+  display: none;
+
 }
 
 header img {
   width: 100%;
   margin: 0;
   padding: 0;
-  display: block
+  display: block;
 }
 
 main {
   padding: 1em;
   margin: 0;
-  transition: none
+  transition: none;
 }
 
 main p {
   margin-bottom: 1em
 }
 
-main a {
-  text-decorations: none;
-  background: green
+main a:link {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  background: #d3d3d3;
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main a:hover{
+color: #a2a2a2;
+
 }
 
 h1 {
@@ -271,7 +283,8 @@ header {
 /*I know, a negative margin is such a hack thing to do, I tried display block etc etc, it wasn't responding. I also tried overflow hidden*/
   margin: 0;
   overflow: hidden;
-  display: block
+
+
 }
 
 header h1 {
@@ -328,9 +341,9 @@ nav img:hover {
 }
 
 .xl-pic {
-  display: inline-block;
   margin: 0;
-  padding: 0
+  padding: 0;
+  display: block;
 }
 
 .xl-pic:hover {
