@@ -56,9 +56,6 @@ header {
 .img320px, .xl-pic, .bw-pic{
     display: none;
 }
-body{
-   overflow: hidden;
-}
 
 
 header img {
@@ -108,7 +105,6 @@ header h3 {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    overflow: hidden;
 }
 
 
