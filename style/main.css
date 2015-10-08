@@ -115,7 +115,7 @@ nav ul {
 }
 
 nav li {
-    width: calc (100% / 3);
+    width: calc(100% / 3);
     float: left;
 }
 
@@ -233,6 +233,7 @@ nav img{
 .img320px{
     display: block;
 }
+}
 
 /*tablet*/
 @media only screen and (min-width: 38em) {
@@ -306,7 +307,7 @@ header h1{
 
 header h1:hover {
 
-    text-shadow: 0 0 2px rgba(255,255,255,1.3);
+    text-shadow: 0 0 2px rgba(255,255,255,1);
     color:rgba(255,255,255,0.5);
 
     -webkit-transition: opacity  3000ms ease-in-out;
