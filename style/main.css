@@ -332,10 +332,10 @@ nav img:hover{
     -webkit-transform: rotate(400deg); /* Chrome, Safari, Opera */
     transform: rotate(400deg);
 
-     -webkit-transition:  5000ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -moz-transition:  500ms cubic-bezier(0.250,0.250,0.410,1.100);
-    -o-transition:  500ms cubic-bezier(0.250,0.250,0.410,1.100);
-    transition:  500ms cubic-bezier(0.250,0.250,0.410,1.100);
+     -webkit-transition: all 5000ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -moz-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    -o-transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
+    transition: all 500ms cubic-bezier(0.250,0.250,0.410,1.100);
 
 }
 
