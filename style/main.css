@@ -319,8 +319,9 @@ header{
      background-image: url("../images/xl-pic.jpg");
      background-size: 100%;
      background-repeat: no-repeat;
-     /*I know, a negative margin is such a hacky thing to do, I tried display block etc etc, it wasn't responding.*/
+     /*I know, a negative margin is such a hacky thing to do, I tried display block etc etc, it wasn't responding. I also tried overflow hidden*/
      margin: 0 0 -43px 0;
+     overflow: hidden;
      display: block;
 }
 
