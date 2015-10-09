@@ -379,19 +379,19 @@ h3 {
 
 /*PRINT*/
 @media print {
-header {
-  display: none
-}
+    header, main, nav {
+      display: none
+    }
 
-main {
-  display: none
-}
+    main {
+      display: none
+    }
 
-nav {
-  display: none
-}
+    nav {
+      display: none
+    }
 
-.bc {
-  display: block
+    .bc {
+      display: block
 }
 }
