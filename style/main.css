@@ -313,7 +313,7 @@ header h1:hover {
 }
 
 header h3 {
-  position: relative;
+  position: absolute;
   bottom: 9.7em;
   width: 100%;
   padding: 0;
