@@ -52,10 +52,11 @@ header {
   display: block
 }
 
+/*
 .img320px,.xl-pic,.bw-pic {
   display: none;
 
-}
+}*/
 
 header img {
   width: 100%;
