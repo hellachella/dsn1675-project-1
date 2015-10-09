@@ -77,6 +77,7 @@ main p {
 
 main a:link {
   text-decoration: none;
+  padding:1em;
   color: #fff;
   display: block;
   background: #d3d3d3;
@@ -238,6 +239,10 @@ nav img {
 }
 */
 
+main a:link{
+    margin: 0;
+    padding: .5em;
+}
 
 
 }
@@ -272,6 +277,13 @@ nav {
 nav li {
   width: calc(100% / 3)
 }
+
+main a:link{
+    margin: 0 auto;
+
+}
+
+
 }
 
 /*large screen*/
